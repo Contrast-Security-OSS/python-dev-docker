@@ -1,6 +1,6 @@
 # Starts with python:3.6.0-alpine and then installs most of python:2.7.13-alpine on top
 # to allows us to choose Python versions at runtime via: python2, python3, pip2, pip3, etc.
-FROM python:3.6.0-alpine
+FROM python:3.6.0-alpine@sha256:142fc3f338b10569d08c3f3855c492c2a176b0c45af099f9ebe87f0fededb210
 
 ENV GPG_KEY C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF
 ENV PYTHON_VERSION 2.7.13
